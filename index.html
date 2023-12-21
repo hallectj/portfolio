@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Travis Halleck Portfolio Page</title>
+</head>
+<body>
+  <div id="page-wrapper">
+    <header id="mainHeader" role="banner">
+      <div class="outer-header">
+        <div>
+          <nav role="navigation" id="mainNav">
+            <div class="logo-div"><a href="#">Travis Halleck</a></div>
+            <input class="menu-btn" id="menu-btn" type="checkbox">
+            <label class="menu-icon" for="menu-btn">
+              <span class="nav-icon"></span>
+            </label>
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contactMe">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <article>
+        <h2>About Me</h2>
+        <p>My name is Travis Halleck, and you have landed on my site. I'm a U.S. Army Veteran who served for nine years in various capacities and served honorably in the military. Upon leaving the Army, I wanted to chase my passion of computer programming. After the Army I went to the University of Alabama in Huntsville to earn my bachelor's degree in computer science. After completion of my degree in May 2019 I went straight to work for fintech company, FIS where I'm currently employed today as a software developer.</p>
+      </article>
+      <aside>
+        <img src="./images/travis_pic_1.jpg" class="myPic"/>
+        <div id="travisPicturesContainer">
+          <div class="avator_pic"><img src="./images/travis_pic_1.jpg" data-picnum="1"/></div>
+          <div class="avator_pic"><img src="./images/travis_pic_2.jpg" data-picnum="2"/></div>
+          <div class="avator_pic"><img src="./images/travis_pic_3.jpg" data-picnum="3"/></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="portfolio">
+      <h2 name="portfolio">Portfolio</h2>
+      <p>Some projects I've worked on. The first item "Celebrity and Nostalgia Website" is a website I just recently created using the PEAN (PostgresSQL, Express, Angular, NodeJS) stack. I had so much fun creating that site and was a project I've always wanted to do.</p>
+      <h4 style="text-align: center;">Click on an image below for more details.</h4>
+      <div id="projectContainer">
+        <div class="project_boxes">
+          <h4>Celebrity and Nostalgia Website</h4>
+          <div>
+            <a href="https://www.backthennow.com" target="_blank">
+              <img src="./assets/backthennow_home.png" />
+            </a>
+          </div>
+        </div>
+
+        <div class="project_boxes">
+          <h4>Etcha-Sketch</h4>
+          <div>
+            <a href="https://raw.githack.com/hallectj/Sketchpad-Program/master/index.html" target="_blank">
+              <img src="https://images2.imgbox.com/6f/6c/X52EO3ZE_o.png" />
+            </a>
+          </div>
+        </div>
+            
+        <div class="project_boxes">
+          <h4>Java MP3 Player</h4>
+          <div>
+            <a href="https://github.com/hallectj/Simple-Java-MP3-Music-Player" target="_blank">
+              <img src="https://images2.imgbox.com/21/5d/Grnpx0yQ_o.png" />
+            </a>
+          </div>
+          <div>
+            <a href="assets/MusicPlayerMP3Java.jar" download="MusicPlayerMP3Java.jar">Download</a>
+          </div>
+        </div>
+            
+        <div class="project_boxes">
+          <h4>Clay Pigeon Shooter</h4>
+          <div>
+            <a href="https://github.com/hallectj/clay_pigeon_final" target="_blank">
+              <img src="https://images2.imgbox.com/48/ff/yac5Y11u_o.png">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <p>Currently working on a RedFin clone on my off time using Firebase for database, React for the front-end and Tailwind for CSS styling. Once completed I will add it to this list of projects.</p>
+    </section>
+
+
+    <section id="resume">
+      <h2 name="resume">My Resume/Skills</h2>
+      <p class="pdf-upper"><a href="./assets/Travis_Halleck_Resume.pdf" download="Travis_Halleck_Resume.pdf">Download resume</a>
+      </p>
+      <article id="resumeArea">
+        <div class="resume-content">
+          <div class="embed-container">
+              <iframe src="./assets/Travis_Halleck_Resume.pdf" frameborder="0"></iframe>
+          </div>
+        </div>
+      </article>
+    </section>
+
+
+    <section id="techFamiliar">
+      <h2>Technical Skills Familiar With</h2>
+      <div id="innerTechContainer">
+        <div><img src="https://cdn4.iconfinder.com/data/icons/eldorado-documents/40/html-512.png" alt="HTML" /></div>
+        <div><img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png" alt="CSS" /></div>
+        <div><img src="https://png.pngtree.com/svg/20170719/javascript_633988.png" alt="JS" /></div>
+        <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="C++" /></div>
+        <div><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" alt="Java" /></div>
+        <div><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" /></div>
+        <div><img src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg" alt="bootstrap" /></div>
+        <div><img src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png" alt="jQuery" /></div>
+        <div><img src="https://angular.io/assets/images/logos/angular/angular.png" alt="Angular 2+"></div>
+        
+      </div>
+
+      <div>
+        <p>I am always looking to improve upon my skills and devote time regularly to become better. I am passionate about all things concerning the web, and strive to do well. Currently I am looking into Tailwind CSS and to be better at React.</p>
+      </div>
+    </section>
+
+
+    <section id="contactMe">
+      <h2 name="contact">Contact Me</h2>
+      <p><address>Are you thinking of contacting me? My email address is <a href="mailto:hallectj@gmail.com?Subject=Hello" target="_top">hallectj@gmail.com</a></address></p>
+      <aside class="socialIcons" style="float: none; text-align: center;">
+        <tr><a href="https://www.facebook.com/travis.halleck" target="_blank"><img src="https://blog.addthiscdn.com/wp-content/uploads/2015/11/logo-facebook.png"></a></tr>
+        <tr><a href="https://github.com/hallectj" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></tr>
+        <tr><a href="www.linkedin.com/in/travis-halleck-02aa398a" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="linkedin"></a></tr>
+        <tr><a href="https://twitter.com/hallectj" target="_blank"><img src="https://about.twitter.com/content/dam/about-twitter/x/large-x-logo.png.twimg.1920.png"></a></tr>
+      </aside>
+    </section>
+
+    <footer id="mainFooter">
+      <p style="text-align: center;">&copy; Copyright 2023 Travis Halleck</p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
